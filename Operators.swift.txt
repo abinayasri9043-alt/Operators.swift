@@ -1,0 +1,44 @@
+let a = 5, b = 2
+// Arithmetic
+print(a + b)
+// Comparison
+print(a > b)
+// Logical
+let t = true, f = false
+print(t && !f)
+
+let a = 7, b = 3
+print(a - b)
+print(a * b)
+print(a / b)  
+
+var total = 10
+total += 5
+print(total)
+total -= 3
+print(total)
+total *= 2
+print(total)
+total /= 4
+print(total)
+
+let a = 5, b = 2
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= 5)
+
+let a = true
+let b = false
+print(a || b)
+print(false || false)
+
+let a = true
+let b = false
+let c = true
+
+print(a || b && c)         
+print((a || b) && c)       
+print(a && b || c) 
+
